@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Kenya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header>
+       <h2 class="logo"> <a href="index.html">Travel Kenya</a></h2> 
+       <nav class="navbar">
+        <a href="">Home</a>
+        <a href="#About">About</a>
+        <a href="#tour-packages">Tour Packages</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#">Login</a>
+        <a href="#">Contacts</a>
+       </nav>
+       <div class="icon">
+        <div id="sub" >&#9776;</div>
+       </div>
+    </header>
+    <section id="home" class="home">
+      <div class="content">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, mollitia.</p>
+        <a href="#About" class="btn">Learn More</a>
+      </div>
+      
+    </section>
+    <section class="flex" data-aos="zoom-in" data-aos-delay="600">
+      <form action="" method="post">
+          <h3>search your tour</h3>
+          <p>where to</p>
+          <input type="text" name="address" required maxlength="50" placeholder="enter tour location" class="box">
+          <p>when</p>
+          <input type="date" name="date" required maxlength="50"  class="box">
+          <p>how many people</p>
+          <input type="number" name="guest" class="box" min="1" max="10" maxlength="2" placeholder="number of guest" required>
+          <input type="submit" value="search tour" name="search" class="btn">
+      </form>
+  </section>
+    
+    <section class="reason">
+      <div class="infor">
+        <div class="content">
+          <h1>01</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa deleniti, possimus maxime cupiditate ut necessitatibus?</p>
+        </div>
+        <div class="content">
+          <h1>02</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa deleniti, possimus maxime cupiditate ut necessitatibus?</p>
+        </div>
+        <div class="content">
+          <h1>03</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa deleniti, possimus maxime cupiditate ut necessitatibus?</p>
+        </div>
+        <div class="content">
+          <h1>04</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa deleniti, possimus maxime cupiditate ut necessitatibus?</p>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="About">
+      <h1>ABOUT US</h1>
+      <div class="row">
+        <div class="image">
+          <img loading="lazy"   src="./images/mt kenya.jpg" alt="Mombasa">
+        </div>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptates quasi magnam reprehenderit distinctio! Provident omnis similique necessitatibus eos autem. Odio laborum, error officia temporibus quisquam magni? Sit, atque consequuntur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatem obcaecati, vero accusamus ex, illum aperiam sed fuga voluptatibus atque quisquam molestiae possimus quos. </p>
+          <a href="" class="btn">see more</a>
+        </div>
+        <div class="image">
+          <img loading="lazy" src="./images/lake nakuru.jpg" alt="Lake Nakuru">
+        </div>
+      </div>
+    </section>
+    <section class="tour-packages" id="tour-packages">
+      <h1>Tour Packages</h1>
+      <div class="box-container">
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front">
+              <img loading="lazy" src="/images/hells gate2.jpg" alt="Hells Gate, Nakuru">
+              <h2>Hells Gate, Nakuru</h2>
+            </div>
+            <div class="card-back">
+              <div class="contents">
+                <h2>Hells Gate, Nakuru</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, praesentium.</p>
+                <span>2500 per person</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front">
+              <img loading="lazy" src="/images/lake nakuru.jpg" alt="Lake Nakuru, Nakuru">
+              <h2>Lake Nakuru, Nakuru</h2>
+            </div>
+            <div class="card-back">
+              <div class="contents">
+                <h2>Lake Nakuru, Nakuru</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, praesentium.</p>
+                <span>2500 per person</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front">
+              <img loading="lazy" src="/images/massai mara.jpg" alt="Lake Nakuru, Nakuru">
+              <h2>Lake Nakuru, Nakuru</h2>
+            </div>
+            <div class="card-back">
+              <div class="contents">
+                <h2>Lake Nakuru, Nakuru</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, praesentium.</p>
+                <span>2500 per person</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front">
+              <img loading="lazy" src="/images/mombasa.jpg" alt="Lake Nakuru, Nakuru">
+              <h2>Lake Nakuru, Nakuru</h2>
+            </div>
+            <div class="card-back">
+              <div class="contents">
+                <h2>Lake Nakuru, Nakuru</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, praesentium.</p>
+                <span>2500 per person</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front">
+              <img loading="lazy" src="/images/samburu national reerve.jpg" alt="Lake Nakuru, Nakuru">
+              <h2>Lake Nakuru, Nakuru</h2>
+            </div>
+            <div class="card-back">
+              <div class="contents">
+                <h2>Lake Nakuru, Nakuru</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, praesentium.</p>
+                <span>2500 per person</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front">
+              <img loading="lazy" src="/images/mt kenya.jpg" alt="Lake Nakuru, Nakuru">
+              <h2>Lake Nakuru, Nakuru</h2>
+            </div>
+            <div class="card-back">
+              <div class="contents">
+                <h2>Lake Nakuru, Nakuru</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, praesentium.</p>
+                <span>2500 per person</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat the structure for other cards with appropriate content -->
+      </div>
+    </section>
+    <div class="container contacts">
+      <h1 class="heading" data-aos="zoom-in"> contact us</h1>
+      <section >
+          <div class="row">
+              <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35869257292!2d36.68223737019163!3d-1.3028602598689443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1711620331341!5m2!1sen!2ske" 
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="flip-left"></iframe>
+
+              <form action="" method="post" data-aos="flip-right">
+                  <h3>get in touch</h3>
+                  <input type="text" name="text" maxlength="50" placeholder="enter your name" class="box">
+                  <input type="email" name="email" maxlength="50" placeholder="enter your email" class="box">
+                  <input type="number" name="number" maxlength="10" min="0" max="999999" placeholder="enter your  phone number" class="box">
+                  <textarea name="message"  class="box" required maxlength="1000" cols="30" rows="10"></textarea>
+                  <input type="submit" value="send message" name="send" class="btn">
+              </form>
+          </div>
+          <div class="grid">
+              <div class="box">
+                  <i class="fa-solid fa-phone"></i>
+                  <h3>phone number</h3>
+                  <a href="tel +254791281811">+254791281811</a>
+                  <a href="tel +2547123456789">+2547123456789</a>
+              </div>
+              <div class="box">
+                  <i class="fa-solid fa-envelope"></i>
+                  <h3>email address</h3>
+                  <a href="mailto:travelkenya@gmail.com">travelkenya@gmail.com</a>
+                  
+              </div>
+
+          </div>
+         
+      </section>
+  </div>
+  
+
+  <footer>
+    <div class="footer-col">
+     
+      <h2 class="logo"> <a href="index.html">Travel Kenya</a></h2> 
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, in.</p>
+    </div>
+    <div class="footer-col">
+      <h3>links</h3>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#tour-packages">Tour Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>office</h3>
+      <ul>
+      <p>Lorem, ipsum.</p>
+      <p>Lorem ipsum dolor sit </p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      </ul>
+    </div>
+    
+    <div class="footer-col">
+      <h3>links</h3>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#tour-packages">Tour Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </div>
+  </footer>
+    
+    <script src="script.js"></script>
+     
+</body>
+</html>
